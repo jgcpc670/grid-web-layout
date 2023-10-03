@@ -1,0 +1,64 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: span 3;
+    gap: 10px;
+    overflow: auto;
+    flex: auto;
+}
+
+body {
+    background-image: url(Saipan.jpg); 
+}
+
+
+.accomplish {
+    color: azure;
+    background-color: #bcb0ab8f;
+    grid-column: 1/2;
+    grid-row: 1/3;
+    padding: 20px;
+    filter: drop-shadow(2px 2px 2px black);
+}
+
+.accomplish > ul {
+    font-size: larger;
+}
+
+.facts {
+    color: azure;
+    background-color:#72d8e676; 
+    grid-column: 2;
+    grid-row: 1;
+    padding: 20px;
+    height: 100px;
+    filter: drop-shadow(2px 2px 2px black);
+}
+
+.Website {
+    color: azure;
+    background-color: #3575838e;
+    grid-column: 2;
+    grid-row: 2;
+    padding: 20px;
+    height: 100px;
+    text-align: center;
+    filter: drop-shadow(2px 2px 2px black);
+}
+
+.Website > p {
+    font-size: larger;
+}
+
+.quote { 
+    color: azure;
+    background-color: rgba(127, 116, 82, 0.45);
+    grid-column: 1/3;
+    grid-row: 3;
+    padding: 20px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-style: italic;    
+    filter: drop-shadow(2px 2px 2px black);
+}
